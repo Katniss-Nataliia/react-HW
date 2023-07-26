@@ -25,8 +25,9 @@ const ProfileItem = ({
     followers,
     views,
     likes,
-    
+
 }) => {
+    console.log({username})
     return (
         <PofileContainer>
             <PortfolioContainer>
@@ -41,6 +42,7 @@ const ProfileItem = ({
 
                     /></AvatartImgContainer>
                 <Name>{username}</Name>
+                
                 <TagContainer><TagInfo>@{tag}</TagInfo></TagContainer>
                 <LocationContainer><LocationInfo>{location}</LocationInfo></LocationContainer>
 
