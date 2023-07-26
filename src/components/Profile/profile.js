@@ -25,6 +25,7 @@ const ProfileItem = ({
     followers,
     views,
     likes,
+    
 }) => {
     return (
         <PofileContainer>
